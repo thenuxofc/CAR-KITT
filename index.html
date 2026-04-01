@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>THENUX KITT AI CAR SYSTEM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="status-bar">
+            <div class="status">🔵 Bluetooth: <span id="bluetooth-status">Not connected</span></div>
+            <div class="status">🤖 AI: <span id="ai-status">Online</span></div>
+            <div class="status">🎵 Music: <span id="music-status">Stopped</span></div>
+        </div>
+
+        <div class="scanner-container">
+            <div class="scanner-bar"></div>
+        </div>
+
+        <div class="chat-container">
+            <div id="chat-messages" class="chat-messages"></div>
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Type a message..." autocomplete="off">
+                <button id="send-btn">▶</button>
+                <button id="voice-btn">🎤</button>
+            </div>
+        </div>
+
+        <div class="music-controls">
+            <button id="play-pause-btn">⏯</button>
+            <button id="next-btn">⏭</button>
+        </div>
+
+        <div class="credits">
+            THENUX AI | Creator: @Thenux-ai
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
